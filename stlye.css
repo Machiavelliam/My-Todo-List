@@ -1,0 +1,87 @@
+*{ box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+background-color: orange;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generalContainer {
+    width: 500px;
+
+    margin: auto;
+ 
+}
+.todoContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+button, input{
+    cursor: pointer;
+font-size: 1rem;
+padding: 5px;
+color: orange;
+border: none;
+border-radius: 5px;
+
+}
+
+button:hover{
+font-size: 1rem;
+padding: 5px;
+color: white;
+border: none;
+background-color: orange;}
+    
+
+.fa-check{
+    font-size: 2rem;
+}
+
+
+
+    .listDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         background-color: purple;
+         padding: 6px;
+          list-style: none;
+            margin: 10px;
+            transition: ease-in-out 7s;
+    
+}
+
+.listDiv:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background-color: rgb(229, 13, 229);
+     padding: 6px;
+      list-style: none;
+        margin: 10px;
+        transition: ease-in-out 7s;
+        width: 400px;
+
+}
+
+
+
+
+
+
+
+.task{
+    color: white;
+  font-size: 2rem;
+}
